@@ -37,3 +37,14 @@ header {
 img.logo {
   width: 100px;
 }
+
+a {
+  text-decoration: none;
+  color: #fff1ad;
+  padding: 20px 20px 20px 20px;
+  transition: all 0.7s ease;
+}
+
+a:hover {
+  font-size: 44px;
+}
