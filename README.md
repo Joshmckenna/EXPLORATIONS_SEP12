@@ -17,6 +17,6 @@ Pages to be added: shop.html
 
 Referencees
 
-Referenced code by Rik Lomas - SuperHi.com 2018
-http://speakingjs.com/es5/ch01.html
-https://www.w3schools.com/
+- Referenced code by Rik Lomas - SuperHi.com 2018
+- http://speakingjs.com/es5/ch01.html
+- https://www.w3schools.com/
