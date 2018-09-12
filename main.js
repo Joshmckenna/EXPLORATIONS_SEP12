@@ -1,3 +1,5 @@
+// intro page
+
 const headerTag = document.querySelector("header")
 
 document.addEventListener("scroll", function () {
