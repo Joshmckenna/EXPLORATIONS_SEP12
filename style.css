@@ -39,6 +39,7 @@ img.logo {
 }
 
 a {
+  position: absolute;
   text-decoration: none;
   color: #fff1ad;
   padding: 20px 20px 20px 20px;
@@ -59,4 +60,14 @@ section {
 
 section div {
   padding: 40px;
+}
+
+/* JavaScript Classes */
+
+header.scrolled img {
+  width: 64px;
+}
+
+header img {
+  transition: all 0.5s ease;
 }
