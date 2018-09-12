@@ -23,3 +23,17 @@ p {
   color: #fff1ad;
   font-size: 36px;
 }
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 32px;
+  text-align: center;
+  z-index: 1;
+}
+
+img.logo {
+  width: 100px;
+}
