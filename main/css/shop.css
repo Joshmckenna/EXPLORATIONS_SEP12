@@ -1,0 +1,104 @@
+@font-face {
+  font-family: "Bluu Next";
+  src: url(font/bluunext.woff2), url(font/bluunext.woff);
+}
+
+body {
+	font-family: Helvetica;
+	font-size: 16px;
+	line-height: 1.6;
+
+	background-color: #ffffff;
+	color: #2a2a2a;
+  overflow-x: hidden;
+}
+
+
+nav {
+  position: fixed;
+  width: 240px;
+  height: 100vh;
+  background-color: #9ecbff;
+  color: #ffffff;
+
+  font-family: Bluu Next, Times New Roman;
+  font-size: 24px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 5px 32px 5px 32px;
+}
+
+
+/* Animation in CSS, not JS */
+main {
+  position: relative;
+  z-index: 1;
+  background-color: #ffffff;
+  min-height: 100vh;
+  transition: transform .5s;
+}
+
+/* --- */
+
+main.open {
+  transform: translate(240px, 0);
+}
+
+a.toggleNav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 24px;
+  text-decoration: none;
+  color: #2a2a2a;
+}
+
+a.toggle-nav img {
+  margin: 0 5px 0 0;
+  vertical-align: middle;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+section div {
+  width: 350px;
+}
+
+section div.content {
+  margin: 0 0 0 60px;
+}
+
+h1 {
+  font-family: Bluu Next;
+	font-size: 48px;
+  line-height: 1.2;
+}
+
+p {
+  margin: 20px 0 20px 0;
+}
+
+a.button {
+  display: inline-block;
+  background-color: #9ecbff;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 15px 10px 15px;
+  border-radius: 3px;
+}
+
+.mattress {
+  width: 400px;
+}

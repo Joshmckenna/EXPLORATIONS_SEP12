@@ -1,12 +1,24 @@
+<!--- Josh McKenna ---->
+<!---  OCAD 2018!  ---->
+
 <!DOCTYPE html>
 
 <html>
-<body>
-<section>
-  Dope 3D Globe from three.js
-</section>
-<section>
-  <a href="dataDashboard.html">See Results</a>
-</section>
-</body>
+
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/planetStyle.css">
+  </head>
+
+  <section>
+    <div>
+      Loading global data... syncing with users and offerings
+    </div>
+  </section>
+
+  <script src="js/three.min.js"></script>
+  <script src="js/planet.js"></script>
+  <script>
+  setTimeout(function(){window.location.href='dataDashboard.html'},7500);
+  </script>
+
 </html>
